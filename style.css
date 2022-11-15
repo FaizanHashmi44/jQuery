@@ -1,0 +1,118 @@
+body{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    background-size: cover;
+    margin-top: 400px;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+}
+.button-64 {
+align-items: center;
+background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+border: 0;
+border-radius: 8px;
+box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+box-sizing: border-box;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+line-height: 1em;
+max-width: 100%;
+min-width: 140px;
+padding: 3px;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+cursor: pointer;
+}
+.button-64:active,
+.button-64:hover {
+outline: 0;
+}
+.button-64 span {
+background-color: rgb(5, 6, 45);
+padding: 16px 24px;
+border-radius: 6px;
+width: 100%;
+height: 100%;
+transition: 300ms;
+}
+.button-64:hover span {
+background: none;
+}
+@media (min-width: 768px) {
+.button-64 {
+    font-size: 24px;
+    min-width: 196px;
+}
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    position: relative;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(5, 6, 45);
+    position: absolute;
+    top: -280px;
+    left: 500px;
+    display: none;
+}
+.cross{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    transition: 2s;
+}
+.cross:hover{
+    color: none;
+}
+.heart{
+    color: red;
+    font-size: 150px;
+    margin: 20px 120px;
+}
+h3{
+    color: #FFFFFF;
+    margin: 0px 100px;
+}
+.paragraph{
+    padding: 30px 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0px 50px;
+    line-height: 23px;
+    font-style: italic;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    margin: 0px 5px;
+    height: 40px;
+    width: 115px;
+    font-size: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    transition: 300ms;
+    border-radius: 8px;
+}
+.btn button:hover{
+    background: none;
+}
